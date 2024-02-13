@@ -106,11 +106,3 @@ int	ft_printf(const char *format, ...)
 	va_end(args);
 	return (len);
 }
-/* 
-#include <stdio.h>
-int main ()
-{
-	ft_printf("%cs%cs%c", 'c', 'b', 'a');
-	printf("\n%cs%cs%c", 'c', 'b', 'a');
-}
-*/
